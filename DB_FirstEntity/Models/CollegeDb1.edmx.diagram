@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f60f67c00ff8423596e457bd6762d743" Name="Diagram1">
+        <EntityTypeShape EntityType="CollegeDbModel1.Course" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDbModel1.Faculty" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDbModel1.Login" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDbModel1.Standard" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDbModel1.Student" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDbModel1.StudentAddress" Width="1.5" PointX="9.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="CollegeDbModel1.FK_Course_Faculty" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeDbModel1.FK_Student_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeDbModel1.FK_Faculty_Standard" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeDbModel1.FK_Student_Standard" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeDbModel1.FK_StudentAddress_Student" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
